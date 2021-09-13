@@ -23,7 +23,7 @@ requirements:
     - python
     - wheel
     - setuptools
-    - setuptools_scm
+    - setuptools_scm 6.0.1
     - setuptools_scm_git_archive
     - libtiledb-sql >=0.10
   run:
