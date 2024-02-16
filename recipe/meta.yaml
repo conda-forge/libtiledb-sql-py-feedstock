@@ -28,9 +28,11 @@ requirements:
     - setuptools_scm 6.0.1
     - setuptools_scm_git_archive
     - libtiledb-sql >=0.10
+    - mysql-connector-c                     # [build_platform != target_platform]
   run:
     - python
     - libtiledb-sql >=0.10
+    - mysql-connector-c                     # [build_platform != target_platform]
 
 test:
   imports:
