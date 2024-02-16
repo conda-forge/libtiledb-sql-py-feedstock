@@ -3,7 +3,7 @@
 set -e
 set -x
 
-C_INCLUDE_PATH="/usr/include/mysql:$C_INCLUDE_PATH" ## for C compiler
-export C_INCLUDE_PATH
+echo 'DEBUGGING.'
+find /usr/ -name 'mysql.h'
 
 $PYTHON setup.py install --single-version-externally-managed --record record.txt
