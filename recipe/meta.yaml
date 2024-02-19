@@ -33,7 +33,6 @@ requirements:
   run:
     - python
     - libtiledb-sql >=0.10
-    - mysql                                # [build_platform != target_platform]
 
 test:
   imports:
