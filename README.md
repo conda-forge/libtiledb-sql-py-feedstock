@@ -26,14 +26,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>Travis</td>
-    <td>
-      <a href="https://app.travis-ci.com/conda-forge/libtiledb-sql-py-feedstock">
-        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/libtiledb-sql-py-feedstock/main.svg?label=Linux">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>
@@ -308,6 +301,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@DimitrisStaratzis](https://github.com/DimitrisStaratzis/)
 * [@ihnorton](https://github.com/ihnorton/)
 * [@shelnutt2](https://github.com/shelnutt2/)
 
