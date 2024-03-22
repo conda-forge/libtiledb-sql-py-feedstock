@@ -9,4 +9,9 @@ if [[ $target_platform == osx-arm64  ]]; then
   export CXXFLAGS="${CXXFLAGS-} ${FLAGS_NEEDED}"
 fi
 
+echo '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++';
+pwd;
+echo '=================================================================================';
+ls -l;
+
 $PYTHON setup.py install --single-version-externally-managed --record record.txt
