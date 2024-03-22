@@ -29,7 +29,6 @@ requirements:
     - setuptools_scm_git_archive
     - libtiledb-sql >=0.10
     - libxcrypt                             # [linux]
-    - mysql-devel
   run:
     - python
     - libtiledb-sql >=0.10
