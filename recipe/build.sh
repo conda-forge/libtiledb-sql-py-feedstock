@@ -15,8 +15,8 @@ echo '==========================================================================
 ls -l;
 
 # debug
-sed -i -e 's/#include "mysql.h"/#include <mysql.h>/g' tiledb/sql/_mysql.c
-sed -i -e 's/#include "mysqld_error.h"/#include <mysqld_error.h>/g' tiledb/sql/_mysql.c
+sed -i -e 's/#include "mysql.h"/#include <mysql\/mysql.h>/g' tiledb/sql/_mysql.c
+sed -i -e 's/#include "mysqld_error.h"/#include <mysql\/mysqld_error.h>/g' tiledb/sql/_mysql.c
 
 echo "Replacement complete."
 
