@@ -1,6 +1,6 @@
 {% set name = "libtiledb-sql-py" %}
-{% set version = "2.1.3" %}
-{% set sha256 = "84595ff052d37314dc73b71a4b231f23b978be3a647a3e07529e3cfe5c080c57" %}
+{% set version = "2.1.5" %}
+{% set sha256 = "4ca66dd393513af6439f5a0bb6cf06eadb5d295ed4639e1a12229fa46e2aca4a" %}
 
 package:
   name: {{ name }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 5
+  number: 0
   skip: true  # [win]
   skip: true  # [py2k]
 
@@ -21,7 +21,6 @@ requirements:
     - {{ compiler('cxx') }}
     - python                                # [build_platform != target_platform]
     - cross-python_{{ target_platform }}    # [build_platform != target_platform]
-    - mysql                                 # [build_platform != target_platform]
   host:
     - python
     - wheel
