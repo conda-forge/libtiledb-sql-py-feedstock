@@ -21,7 +21,6 @@ requirements:
     - {{ compiler('cxx') }}
     - python                                # [build_platform != target_platform]
     - cross-python_{{ target_platform }}    # [build_platform != target_platform]
-    - mysql                                 # [build_platform != target_platform]
   host:
     - python
     - wheel
