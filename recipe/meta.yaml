@@ -58,6 +58,7 @@ about:
 
 extra:
   recipe-maintainers:
-    - DimitrisStaratzis
-    - shelnutt2
+    - dudoslav
     - ihnorton
+    - jdblischak
+    - shelnutt2
