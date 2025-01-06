@@ -23,4 +23,4 @@ python:
 target_platform:
 - linux-64
 tiledb:
-- '2.26'
+- '2.27'
